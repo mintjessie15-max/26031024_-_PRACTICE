@@ -1,0 +1,14 @@
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.Write("숫자를 입력하세요: ");
+        int x = int.Parse(Console.ReadLine());
+
+        string result = (x % 2 == 0) ? "짝수" : "홀수";
+
+        Console.WriteLine(result);
+    }
+}
