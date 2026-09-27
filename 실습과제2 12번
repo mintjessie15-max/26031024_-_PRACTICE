@@ -1,0 +1,44 @@
+int x = 0;
+int y = 0;
+
+if (x > 4)
+{
+    if (y > 2)
+    {
+        Console.WriteLine(x * y);
+    }
+}
+else
+{
+    Console.WriteLine();
+}
+
+int x = 10;
+int y = 0;
+
+if (x > 4)
+{
+    if (y > 2)
+    {
+        Console.WriteLine(x * y);
+    }
+}
+else
+{
+    Console.WriteLine();
+}
+
+int x = 10;
+int y = 10;
+
+if (x > 4)
+{
+    if (y > 2)
+    {
+        Console.WriteLine(x * y);
+    }
+}
+else
+{
+    Console.WriteLine();
+}
